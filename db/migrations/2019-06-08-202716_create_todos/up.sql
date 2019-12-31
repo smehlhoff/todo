@@ -1,0 +1,6 @@
+CREATE TABLE todos (
+  id INTEGER PRIMARY KEY NOT NULL,
+  task TEXT NOT NULL,
+  completed BOOLEAN NOT NULL DEFAULT 'f',
+  timestamp DATETIME NOT NULL
+)
